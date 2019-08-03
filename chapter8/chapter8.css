@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+main{
+	width: 960px;
+	margin: 50px auto;
+}
+.main-box{
+	display: inline-block;
+	width: 300px;
+}
+.main-box:nth(2){
+	margin: 0 30px;
+}
+.step{
+	color: #fff;
+	background-color: orange;
+	float: left;
+}
+.image{
+	height: 200px;
+	width: 280px;
+	margin: 10px 10px 0 10px;
+}
+.image01{
+	background-image: url(img/flow01.png);
+	background-size: cover;
+}
+.image02{
+	background-image: url(img/flow02.png);
+	background-size: cover;
+}
+.image03{
+	background-image: url(img/flow03.png);
+	background-size: cover;
+}

@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header{
+	height: 400px;
+	background-image: url(img/mv.jpg);
+	background-position: bottom;
+	background-size: cover;
+}
+.header-title{
+	float: left;
+	background-color: rgba(0,0,0,0);
+	padding: 20px 0 0 20px;
+	color: gray;
+}
+main{
+	width: 840px;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+.main-item{
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+.main-title{
+	display: block;
+}
+.main-text{
+	display: block;
+}
